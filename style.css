@@ -288,6 +288,15 @@ button{
     bottom: 8%;
     z-index: 99;
 }
+.overlay2 > .img2 > img{
+    position: absolute;
+    width: 425px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    bottom: 8%;
+    z-index: 99;
+}
 
 
 
