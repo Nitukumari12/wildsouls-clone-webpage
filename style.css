@@ -251,6 +251,10 @@ button{
     overflow-y: hidden;
     /* padding: 10px; */
 }
+
+.card::-webkit-scrollbar{
+    display: none;
+}
 .box2 > .card > .cards{
     width: 30%;
     height: 65%;
@@ -297,67 +301,73 @@ button{
     bottom: 8%;
     z-index: 99;
 }
+.btn{
+    width: 25%;
+    height: 20%;
+    background-color: black;
+    position: relative;
+    z-index: 99;
+    margin-top: 40%;
+}
+/* --------------------------------------page2 end-------------------------------------------------- */
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .box3{
+.box3{
     width: 100%;
-    height: 100%;
-    background-color: rgb(49, 13, 107);
+    height: 65%;
+    background-color: #ED7B49;
     
 }
+#wild-left{
+    width: 30%;
+    height: 50%;
+    /* background-color: white; */
+    position: relative;
+    top: 23%;
+    left: 10%;
+}
+#wild-left > .content {
+    width: 100%;
+    height: 40%;
+    /* background-color: #1ea03a; */
+    font-size: 47px;
+   font-weight: 900;
+}
+#wild-left > .content p{
+    font-size: 20px;
+    font-weight: 100;
+}
+#wild-left > .content > #btn{
+    width: 65%;
+    height: 35%;
+    background-color: black;
+    position: relative;
+    top: 25%;
+    left: 20%;
+    border-radius: 50px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+/* .right-side-image{
+    width: ;
+}  */
 
+
+
+
+
+
+
+
+
+
+
+
+/*
 .box4{
     width: 100%;
     height: 100%;
