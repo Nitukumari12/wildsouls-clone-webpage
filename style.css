@@ -514,10 +514,10 @@ button{
     z-index: 1;
 }
 .nuts > .logo{
-    width: 10%;
-    height: 20%;
+    width: 13%;
+    height: 25%;
     /* background-color: aliceblue; */
-    margin-top: -68%;
+    margin-top: -72%;
     margin-left: 80%;
     transform: rotate(10deg);
     background-image: url(./imges/14.svg);
@@ -659,45 +659,234 @@ button{
     font-weight: 500;
     font-size: 18px;
 }
+.dote{
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    margin-left: 49%;
+    margin-top: -2%;
+    border-radius: 50%;
+   
+}
+.dote-2{
+    width: 15px;
+    height: 15px;
+    background-color:white;
+    margin-left: 52%;
+    margin-top: -1.1%;   
+    border-radius: 50%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ------------------------------page5end----------------------------------------- */
 .box6{
     width: 100%;
-    height: 100%;
-    background-color:blue ;
+    height: 140%;
+    background-color: #ED7B49 ;
+    /* position: relative; */
     
 } 
+.logos{
+    width: 15%;
+    height: 15%;
+    background-color: black;
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 25%;
+}
+.store{
+    width: 25%;
+    height: 19%;
+    /* background-color:white; */
+    position: absolute;
+    margin-top: 70%;
+    margin-left: 10%;
+}
+.store > h1{
+    font-size: 90px;
+    font-weight: 900;
+}
+.store-para  {
+    width: 25%;
+    height: 6%;
+    /* background-color: azure; */
+    position: absolute;
+    margin-top: 95%;
+    margin-left: 10%;
+}
+.store-para > p{
+    font-size: 21px;
+    font-weight: 500;
+}
+.store-btn{
+    width: 22%;
+    height: 6%;
+    background-color:black;
+    position: absolute;
+    margin-top: 103%;
+    margin-left: 10%;
+    border-radius: 50px;
+}
+.store-btn > h3{
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+    letter-spacing: 3px;
+}
+.store-img1 {
+    width: 35%;
+    height: 48%;
+    background-color: aqua;
+    position: absolute;
+    margin-left: 52%;
+    margin-top: 62%;
+    transform: rotate(25deg);
+    background-image: url(./imges/19.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.store-img2 {
+    width: 35%;
+    height: 48%;
+    background-color:black;
+    position: absolute;
+    margin-left: 52%;
+    margin-top: 62%;
+    transform: rotate(-25deg);
+    background-image: url(./imges/17.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.store-img3 {
+    width: 35%;
+    height: 48%;
+    background-color:yellow;
+    position: absolute;
+    margin-left: 52%;
+    margin-top: 62%;
+    background-image: url(./imges/18.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+/* ----------------------------------------------------------page6__________--------------------------------- */
 
-/* .box8{
+.box7{
     width: 100%;
-    height: 100%;
-    background-color: green;
+    height: 70%;
+    background-color: #492c20;
+    
+}
+.magical{
+    width: 57%;
+    height: 90%;
+    background-color: #ABAFD6;
+    border-radius: 0 250px 0 0;
+}
+ .magical > .magical-heading {
+    width: 35%;
+    height: 7%;
+    /* background-color: #fff; */
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 10%;
+ }
+ .magical-heading > h1{
+    font-size: 96px;
+    font-weight: 900;
+ }
+ .magical > .magical-head{
+    width: 16%;
+    height: 8%;
+    /* background-color: #fff; */
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 22%;
+}
+.magical-head > h1{
+    font-size: 49px;
+    font-weight: 900;
+}
+.magical > .magical-para{
+    width: 20%;
+    height: 8%;
+    /* background-color: #fff; */
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 32%;
+}
+.magical > .magical-para > p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.magical > .magical-price{
+    width: 15%;
+    height: 2%;
+    /* background-color: #fff; */
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 42%;
+}
+.magical-price > h4{
+    font-size: 23px;
+    font-weight: 200;
+}
+.magical > .magical-btn{
     
 }
 
-.box9{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.box9{
     width: 100%;
     height: 100%;
     background-color:grey ;
@@ -709,4 +898,4 @@ button{
     height: 100%;
     background-color: greenyellow;
     
-}   */
+}    */
